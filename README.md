@@ -1,6 +1,6 @@
-﻿# [CH552](https://github.com/mcuyun/CH552) 
+﻿# [CM0](https://github.com/mcuyun/MCUYUN_CM0) 
 
-WCH CH552单片机
+Cortex M0内核处理器
 
 [![sites](mcuyun/mcuyun.png)](http://www.mcuyun.com)
 
@@ -10,32 +10,22 @@ WCH CH552单片机
 
 ## 简介
 
-最廉价的USB通信单片机，如果要做一款低成本的交互式产品，该平台十分合适
-
-基于8051内核24MHz主频，足够丰富的外设和USB通信能力，项目的工程通过keil c51编译开发，开发环境相对友好。
+CortexM0其核心架构为ARMv6M，其运算能力可以达到0.9 DMIPS/MHz，而与其他的16位与8位处理器相比，由于CortexM0的运算性能大幅提高，所以在同样任务的执行上CortexM0只需较低的运行速度，而大幅降低了整体的动态功耗。
 
 ---
 
-## 组成
+## 代表
 
-#### LCD
+#### [STM32F0](https://github.com/mcuyun/MCUYUN_STM32F0) 
 
-包括LCD通信工程代码
+#### [LPC1114](https://github.com/mcuyun/MCUYUN_LPC1114) 
 
-#### HID
+#### [NRF51](https://github.com/mcuyun/MCUYUN_NRF51)
 
-包括一个HID通信的工程代码
 
-#### examples
-
-- 同CH554的官方例程
-
-更多资源：http://www.wch.cn/downloads/category/28.html
-
-- 程序下载工具
-
-http://www.wch.cn/download/WCHISPTool_Setup_exe.html
 
 ---
+
+为锻造最美之器
 
 ###  www.mcuyun.com   |    qitas@qitas.cn
