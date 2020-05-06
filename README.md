@@ -1,10 +1,8 @@
 ﻿# [arm cortex M0](https://github.com/sochub/CM0)
 
-[![sites](SoC/SoC.png)](http://www.qitas.cn) 
+[![sites](http://182.61.61.133/link/resources/SoC.png)](http://SoC.Xin)  
 
-####  qitas@qitas.cn
-
-#### 归属：[arm cortex M](https://github.com/sochub/CM)
+#### 归属：[arm cortex](https://github.com/sochub/CM)
 #### 编译：[arm-none-eabi](https://github.com/sochub/arm-none-eabi) 
 
 ## [描述](https://github.com/sochub/CM0/wiki) 
@@ -13,25 +11,9 @@ Cortex M0是ARM最精简的低功耗低端处理器内核IP，其核心架构为
 
 Cortex M0最大特点是低功耗的设计，Cortex-M0为32位、3级流水线RISC处理器，其核心仍为冯.诺依曼结构，是指令和数据共享同一总线的架构。
 
-[![sites](SoC/CM0.png)](https://developer.arm.com/ip-products/processors/cortex-m/cortex-m0) 
+
+[![sites](docs/M0.png)](https://developer.arm.com/ip-products/processors/cortex-m/cortex-m0) 
+[![sites](docs/CM0.png)](https://developer.arm.com/ip-products/processors/cortex-m/cortex-m0) 
 
 
-### [收录产品](https://github.com/sochub/CM0)
-
-- [STM32F0](https://github.com/sochub/STM32F0) 
-
-- [LPC1114](https://github.com/sochub/LPC1114) 
-
-- [NRF51 BLE](https://github.com/sochub/NRF51)
-
-- [WCH CH57](https://github.com/sochub/CH57)
-
-### [接近架构](https://github.com/sochub/CM0)
-
-- [MCS-51](https://github.com/sochub/MCS-51) 
-
-- [cortex M3](https://github.com/sochub/CM3)
-
-
-###  [SoC开发平台](http://www.qitas.cn)   
-
+###  [SoC芯平台](http://SoC.Xin) 
