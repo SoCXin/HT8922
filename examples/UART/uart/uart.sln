@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# HRIDE Solution File, Format Version 11.00
+Project("{39F91901-BA3E-4766-9ADB-AC16DDCC0D9C}") = "uart", "uart.hrccproj", "{A243C8E3-9C18-4E2D-8EE1-BBB7D2C2F2A2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A243C8E3-9C18-4E2D-8EE1-BBB7D2C2F2A2}.Debug|x86.ActiveCfg = Debug|x86
+		{A243C8E3-9C18-4E2D-8EE1-BBB7D2C2F2A2}.Debug|x86.Build.0 = Debug|x86
+		{A243C8E3-9C18-4E2D-8EE1-BBB7D2C2F2A2}.Release|x86.ActiveCfg = Release|x86
+		{A243C8E3-9C18-4E2D-8EE1-BBB7D2C2F2A2}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

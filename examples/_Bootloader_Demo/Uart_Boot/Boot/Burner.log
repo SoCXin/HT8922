@@ -1,0 +1,5 @@
+   在 System.Threading.WaitHandle.WaitOneNative(SafeHandle waitableSafeHandle, UInt32 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.InternalWaitOne(SafeHandle waitableSafeHandle, Int64 millisecondsTimeout, Boolean hasThreadAffinity, Boolean exitContext)
+   在 System.Threading.WaitHandle.WaitOne(Int32 millisecondsTimeout, Boolean exitContext)
+   在 CommunicationDLL.SiUSBComm.Write(Byte[]& in_buf, Byte[]& out_buf, Int32 r_time_out, Int32 w_time_out, Int32 wait_time)
+   在 CommunicationDLL.Comm.Send(Boolean is_syn, Dictionary`2& in_paras, Dictionary`2& out_paras, Int32 r_time_out, Int32 w_time_out, Int32 wait_time)
