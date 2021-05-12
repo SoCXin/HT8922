@@ -4,3 +4,5 @@
 debug
 *hrccproj
 *suo
+*.inc
+*.lkr
