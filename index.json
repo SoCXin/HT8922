@@ -1,0 +1,34 @@
+{
+    "type":"SoC",
+    "name":"HT8922",
+    "title": "hitrendtech HT8922",
+    "description":"hitrendtech PLC 8051 SoC",
+    "Core": {
+        "num": 1,
+        "type":"8051",
+        "Freq":20,
+        "DMIPS": 59,
+        "CoreMark": 142
+    },
+    "manufacturer": {
+        "vendor":"hitrendtech",
+        "homepage":"http://www.hitrendtech.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SoCXin/HT8922.git"
+    },
+    "version":"1.0.0",
+    "series":["HT8922"],
+    "package":["QFN32","QFN24"],
+    "peripheral": ["PD","ADC","USART","SPI","I2C","I2S"],
+    "keywords": [
+        "dev-platform",
+        "ARM",
+        "Cortex-M",
+        "STMicroelectronics",
+        "STM32",
+        "ADC","USART","I2C","RTC","SPI",
+        "3.6V","1.8V"
+    ]
+}
