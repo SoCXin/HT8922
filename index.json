@@ -1,18 +1,18 @@
 {
-    "type":"SoC",
+    "type":"MCU",
     "name":"HT8922",
-    "title": "hitrendtech HT8922",
-    "description":"hitrendtech PLC 8051 SoC",
+    "title": "whxy HT8922 MCU",
+    "description":"whxy Low Volt MCU",
     "Core": {
-        "num": 1,
-        "type":"8051",
-        "Freq":20,
-        "DMIPS": 59,
-        "CoreMark": 142
+        "CoreNum": 1,
+        "Core":"Cortex-M0",
+        "Fmax":64,
+        "DMIPS": 60,
+        "CoreMark": 140
     },
     "manufacturer": {
-        "vendor":"hitrendtech",
-        "homepage":"http://www.hitrendtech.com"
+        "vendor":"whxy",
+        "homepage":"https://www.whxy.com"
     },
     "repository": {
         "type": "git",
@@ -20,15 +20,18 @@
     },
     "version":"1.0.0",
     "series":["HT8922"],
-    "package":["QFN32","QFN24"],
-    "peripheral": ["PD","ADC","USART","SPI","I2C","I2S"],
+    "package":["QFN16","LQFP32","TSSOP20","LQFP48"],
+    "peripheral": ["ADC","USART","SPI","I2C"],
+    "temp": [-40,105],
+    "volt": [1.65,5.5],
+    "ESD": {
+        "HBM": 4000,
+        "CDM": 500
+    },
     "keywords": [
-        "dev-platform",
-        "ARM",
-        "Cortex-M",
-        "STMicroelectronics",
-        "STM32",
-        "ADC","USART","I2C","RTC","SPI",
-        "3.6V","1.8V"
+        "Cortex-M0",
+        "whxy",
+        "ADC","I2C","SPI","USART"
     ]
 }
+
